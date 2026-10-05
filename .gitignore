@@ -1,0 +1,25 @@
+# Byte-compiled / Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# Rate Shield SQLite Database & WAL logs
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
