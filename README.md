@@ -48,12 +48,10 @@ Rate Shield is a real-time security telemetry engine and dashboard designed to i
 
 ## Directory Structure
 
-
-```
-
+```text
 rate_shield/
 ├── app/
-│   ├── **init**.py
+│   ├── __init__.py
 │   ├── config.py
 │   ├── database.py
 │   ├── middleware.py
@@ -77,16 +75,18 @@ rate_shield/
 1. Install Python 3.10+
 2. Install and launch [Ollama](https://ollama.com/)
 3. Pull the `llama3` model:
-   ```bash
-   ollama pull llama3
+```bash
+ollama pull llama3
 
 ```
+
+
 
 ### Setup
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/rutush2/rate_shield.git](https://github.com/rutush2/rate_shield.git)
+git clone https://github.com/rutush2/rate_shield.git
 cd rate_shield
 
 ```
@@ -125,5 +125,7 @@ streamlit run dashboard/app.py
 
 
 3. Open `http://localhost:8501` to view the console and use the sidebar traffic simulator to send test attack batches.
+
+```
 
 ```
